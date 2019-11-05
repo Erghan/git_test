@@ -1,0 +1,40 @@
+@mixin spacing($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    @include spacing(0,0);
+}
+
+body {
+    @include spacing(0,15);
+    background: #fff;
+
+    header, nav, ul {
+        @include flexCenter();
+    }
+
+    header {
+        width: 100%;
+
+        ul {
+            list-style: none;
+
+            li {
+                margin: 0;
+                padding: 25px;
+            }
+        }
+    }
+    div {
+        h1 {
+            margin-bottom: 15px;
+        }
+    }
+}

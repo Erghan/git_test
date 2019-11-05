@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 15;
+  background: #fff; }
+  body header, body nav, body ul {
+    display: flex;
+    justify-content: center; }
+  body header {
+    width: 100%; }
+    body header ul {
+      list-style: none; }
+      body header ul li {
+        margin: 0;
+        padding: 25px; }
+  body div h1 {
+    margin-bottom: 15px; }
+
+/*# sourceMappingURL=style.css.map */
